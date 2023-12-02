@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main() // program execution starts here
 {
     cout << "Hello world!"; // std:: is optional now
     
