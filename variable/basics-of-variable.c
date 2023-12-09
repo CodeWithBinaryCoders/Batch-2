@@ -19,6 +19,14 @@ int main()
 
     printf("Value of a is %d & value of b is %d\n", a, b);
 
+    // int p = q = 6; -> this is an error
+
+    int p, q;
+
+    p = q = 10; // try to avoid
+
+    printf("value of p and q is %d and %d", p, q);
+
 
     return 0;
 }
