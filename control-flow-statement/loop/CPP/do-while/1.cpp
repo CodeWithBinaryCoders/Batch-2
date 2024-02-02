@@ -9,7 +9,6 @@ int main()
     do
     {
         cout << "Value of i is " << i << endl;
-        
     } while (i != 0);
 
     return 0;
