@@ -6,7 +6,7 @@ int main()
         printf("Hello\n");
     }
     
-    printf("Value of i is %d\n", i);
+    printf("Value of i is %d\n", i); // i is undeclared here
 
     return 0;
 }
