@@ -20,6 +20,7 @@ int main()
     // take the row number as input
     printf("Enter the number of row(s) : ");
     scanf("%d", &row);
+    
     /*** print first half of the pattern ***/
 
     // run one loop for row(s) from i = 1 to i = row
