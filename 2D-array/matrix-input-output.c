@@ -5,6 +5,8 @@ int main()
     int row, col;
     scanf("%d%d", &row, &col);
 
+    printf("\n");
+
     // declare the 2D array
     int arr[row][col];
 
@@ -14,6 +16,8 @@ int main()
         for (int j = 0; j < col; j++)
             scanf("%d", &arr[i][j]);
 
+    printf("\n");
+    
     // output
     for (int i = 0; i < row; i++)
     {
