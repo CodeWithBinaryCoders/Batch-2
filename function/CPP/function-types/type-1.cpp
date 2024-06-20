@@ -20,5 +20,7 @@ void sum() // function definition
     cout << "Enter two integers : ";
     cin >> a >> b; // input
     cout << "Sum is " << a + b << endl;
-}
 
+    // return;
+    // It's optional
+}
