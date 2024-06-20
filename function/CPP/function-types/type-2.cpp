@@ -7,7 +7,8 @@ int sum(); // function prototype
 
 int main()
 {
-    cout << "Sum = " << sum() << endl; // call the function, no parameter is provided
+    int ans = sum();
+    cout << "Sum = " << ans << endl; // call the function, no parameter is provided
 
     return 0;
 }
