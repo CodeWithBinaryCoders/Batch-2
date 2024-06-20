@@ -18,5 +18,5 @@ void func() // function definition
 {
     cout << "Hello, World!" << endl;
     return;
-    cout << "Binary Learn" << endl;
+    cout << "Binary Learn" << endl; // dead code
 }
