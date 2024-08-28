@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct student // structure definition
+struct Student // structure definition
 {
     // member variables
     int roll;

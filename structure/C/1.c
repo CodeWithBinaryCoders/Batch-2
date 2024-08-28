@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct student // structure definition
+struct Student // structure definition
 {
     // member variables
     int roll;
@@ -10,7 +10,7 @@ struct student // structure definition
 int main()
 {
 
-    struct student avik, alik; // structure variable
+    struct Student avik, alik; // structure variable
 
     avik.roll = 12;
     avik.enr = 1234;
