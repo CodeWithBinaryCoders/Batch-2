@@ -6,7 +6,8 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int *ptr = malloc(n * sizeof(int));
+    // int *ptr = calloc(n * sizeof(int)); // wrong syntax
+    int *ptr = calloc(n, sizeof(int));
 
     // check if memory is allocated successfully
     if (ptr == NULL)
